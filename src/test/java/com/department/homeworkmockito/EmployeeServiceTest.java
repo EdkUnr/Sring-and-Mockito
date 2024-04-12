@@ -1,4 +1,4 @@
-package com.department.homeworkmockito.test;
+package com.department.homeworkmockito;
 
 import static org.junit.Assert.*;
 
