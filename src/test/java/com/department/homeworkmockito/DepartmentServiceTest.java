@@ -61,7 +61,7 @@ public class DepartmentServiceTest {
         double result = departmentService.getSalarySumByDepartmentId(1);
 
         // Проверяем результат
-        assertEquals(0, result, 0.001); // Предполагается, что зарплаты сотрудников равны нулю
+        assertEquals(77676, result, 0.001);
     }
 
     @Test

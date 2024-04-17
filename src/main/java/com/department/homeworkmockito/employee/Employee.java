@@ -8,10 +8,8 @@ public class Employee {
     private double salary;
     private int department;
 
-    public Employee(String fullName, double salary, int department) {
-        String[] parts = fullName.split("\\s+");
-        this.firstName = parts[0];
-        this.lastName = parts[1];
+    public Employee(String firstName, double salary, int department) {
+        this.firstName = firstName;
         this.salary = salary;
         this.department = department;
     }
